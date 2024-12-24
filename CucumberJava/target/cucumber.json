@@ -1,0 +1,223 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2024-12-04T15:01:34.097Z",
+        "line": 13,
+        "name": "Check login with invalid credentials",
+        "description": "",
+        "id": "login-functionality-test;check-login-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4899000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepDefinations.login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2928000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters invalid username and password",
+            "match": {
+              "location": "stepDefinations.login.user_enters_invalid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1847000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clicks on login button",
+            "match": {
+              "location": "stepDefinations.login.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1832000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "error message is displayed - Invalid Credentials",
+            "match": {
+              "location": "stepDefinations.login.error_message_is_displayed_Invalid_Credentials()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-04T15:01:34.506Z",
+        "line": 28,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "login-functionality-test;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1179000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepDefinations.login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1098000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters valid name1 and abc",
+            "match": {
+              "location": "stepDefinations.login.user_enters_valid_name1_and_abc()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1306000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "clicks on login button",
+            "match": {
+              "location": "stepDefinations.login.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2900000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "stepDefinations.login.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-04T15:01:34.548Z",
+        "line": 29,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "login-functionality-test;title-of-your-scenario-outline;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1206000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepDefinations.login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1080000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters valid name2 and def",
+            "match": {
+              "location": "stepDefinations.login.user_enters_valid_name2_and_def()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1377000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "clicks on login button",
+            "match": {
+              "location": "stepDefinations.login.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3010000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "stepDefinations.login.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "login functionality test",
+    "description": "  I want to use this template for my feature file",
+    "id": "login-functionality-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/login.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
